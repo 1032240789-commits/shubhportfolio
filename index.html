@@ -880,7 +880,16 @@
 
       .layout {
         width: 100%;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .column {
+        display: contents;
+      }
+
+      .market-profile {
+        order: -1;
       }
 
       .product-grid {
